@@ -1,0 +1,179 @@
+body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+#header-design {
+  background-color: #000000;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+#container {
+  width: 70%;
+  margin: auto;
+}
+
+#logo {
+   width: 50%;
+   float: left;
+}
+
+#anchor-link {
+  float: right;
+  width: 50%;
+  padding-top: 10px;
+}
+
+#anchor-link a {
+  color: orange;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#anchor-link a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+#clearfix {
+  clear: both;
+}
+
+#slider {
+  padding: 150px;
+  background-image: url(slider.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+#slider h1 {
+  font-size: 80px;
+  color: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+#slider p {
+  color: #EEE;
+}
+
+#slider a{
+  color: orange;
+  border: 1px solid orange;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#inner {
+  width: 80%;
+  margin: auto;
+}
+
+
+#content-one {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#content-one h1 {
+  font-size: 50px;
+  color: orange;
+}
+
+#content-one p {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+
+#content-left {
+  width: 50%;
+  float: left;
+  background-image: url(hand.jpg);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 200px;
+}
+
+#content-right {
+  width: 48%;
+  float: right;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#content-right h2 {
+  color: orange;
+  font-size: 50px;
+}
+
+#content-right p {
+  color: #666;
+  font-size: 14px;
+}
+
+#contact-us {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 50%;
+  margin:auto;
+}
+
+#contact-us h1 {
+  font-size: 60px;
+  text-align: center;
+  color: orange;
+}
+
+#left-form {
+  float: left;
+  width: 50%;
+}
+
+#form-element {
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#right-form {
+  float: right;
+  width: 48%;
+}
+
+label {
+  color: #555;
+}
+
+#submit {
+  padding: 15px;
+  border: 1px solid orange;
+  color: orange;
+  font-weight: bold;
+  width: 100%;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+#footer {
+  background-color: #000000;
+  padding: 10px;
+  color: #cccccc;
+  text-align: center;
+  font-size: 13px;
+}
